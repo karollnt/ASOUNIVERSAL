@@ -22,7 +22,7 @@
     );
   } else {
     // browser global
-    if (typeof window.Isotope !== 'undefined) {
+    if (typeof window.Isotope !== 'undefined') {
       factory(
         window.Isotope.LayoutMode
       );
